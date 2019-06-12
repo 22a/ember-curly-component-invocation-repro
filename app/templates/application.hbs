@@ -1,5 +1,11 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+{{#my-banner}}
+  Some text in a block-form banner component
+{{/my-banner}}
 
-{{outlet}}
+<div style="margin-bottom: 64px;"></div>
+
+{{my-banner rawText='Some text in an inline-form banner component'}}
+
+<div style="margin-bottom: 64px;"></div>
+
+<Text>Some text inside the &lt;Text&gt; component</Text>
